@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/introduce/introduce",
+    "pages/self/self",
+    "pages/paycar/paycar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "黄老皮的杂货铺",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#3cc51f",
+    "color": "#cccccc",
+    "borderStyle": "black",
+    "list": [
+      {
+       
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./pages/images/home.png",
+        "selectedIconPath": "./pages/images/home.png"
+      },
+      {
+      
+        "pagePath": "pages/introduce/introduce",
+        "text": "介绍",
+        "iconPath": "./pages/images/introduce.png",
+        "selectedIconPath": "./pages/images/introduce.png"
+      },
+      {
+       
+        "pagePath": "pages/paycar/paycar",
+        "text": "购物",
+        "iconPath": "./pages/images/paycar.png",
+        "selectedIconPath": "./pages/images/paycar.png"
+      },
+      {
+       
+        "pagePath": "pages/self/self",
+        "text": "我的",
+        "iconPath": "./pages/images/self.png",
+        "selectedIconPath": "./pages/images/self.png"
+      }
+     
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
