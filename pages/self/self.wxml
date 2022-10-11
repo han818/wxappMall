@@ -1,0 +1,26 @@
+<view class="box">
+<view class="header">
+  <image class="avaUrl" src="{{avaUrl}}"></image> 
+   <view class="nkname"><text>{{nickkName}}</text></view>
+</view>
+<view class="main">
+<view class="item">
+<image class="icon1" src="/pages/images/爱心.png"></image>
+<text>商品收藏</text>
+</view>
+<view class="item">
+  <image class="icon1" src="/pages/images/收藏.png"></image>
+  <text>店铺收藏</text>
+</view>
+<view class="item">
+  <image class="icon1" src="/pages/images/播放记录.png"></image>
+  <text>浏览记录</text>
+</view>
+</view>
+<view class="order">
+<view class="item">
+<image src="/pages/images/"></image>
+<text>待发货</text>
+</view>
+</view>
+</view>

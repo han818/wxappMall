@@ -1,0 +1,18 @@
+/* custom-tab-bar/index.wxss */
+.top_view{
+  float:left;width:33%;text-align:center; font-size:12px;
+}
+.img_{
+  width:28px;height:28px;
+}
+.tab-bar{
+  width:100%;
+  position: fixed;
+  bottom:0;
+  padding:10rpx;
+  margin-left:-4rpx;
+  background:#FFFFFF;
+  font-size:20rpx;
+  color:#fcf7f7;
+  box-shadow: 6rpx 6rpx 6rpx 6rpx rgb(248, 245, 245);
+}

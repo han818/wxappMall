@@ -1,0 +1,62 @@
+/* pages/self/self.wxss */
+.box{
+  padding-top: 100rpx;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.avaUrl{
+  margin-left: 50rpx;
+  width: 120rpx;
+  height: 120rpx; 
+  border-radius: 50%;
+  overflow: hidden;
+}
+.nkname{
+  margin-left: 30rpx;
+  font-size: 40rpx;
+  line-height: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.main{
+  
+  margin: 15rpx;
+  margin-top: 50rpx;
+  height: 170rpx;
+  border-bottom: 1rpx solid gray;
+  display: flex;
+ flex-direction: row;  
+ align-items: center;
+ justify-content: center;
+}
+.item{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icon1{
+  width: 60rpx;
+  height: 60rpx;
+}
+.item>text{
+  font-size: 35rpx;
+}
+.order{
+  margin: 15rpx;
+  height: 170rpx;
+  border-radius: 3%;
+  border: 1rpx solid gray;
+  
+}

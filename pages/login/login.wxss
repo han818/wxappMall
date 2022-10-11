@@ -1,0 +1,22 @@
+/* pages/login/login.wxss */
+.box{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 400rpx;
+}
+
+
+.touxian{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+text{
+  text-align: center;
+}

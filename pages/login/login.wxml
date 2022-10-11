@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+
+
+<view class="box">
+     <image class="touxian"  src="{{touxian}}"></image>
+     <text>昵称:{{nickName}}</text>
+     <button wx:if="{{!userInfo}}"   bindtap="dianji">点击登录</button>
+</view>
+
