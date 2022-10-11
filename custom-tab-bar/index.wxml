@@ -1,0 +1,22 @@
+<view class="box">
+  <view class="iconBox" bindtap="goToHome">
+    <image class="icon" src="/pages/images/首页.png">
+    </image>
+    <text>首页</text>
+  </view>
+  <view class="iconBox" bindtap="goToIntroduce">
+    <image class="icon" src="/pages/images/sale.png">
+    </image>
+    <text>热卖折扣</text>
+  </view>
+  <view class="iconBox" bindtap="goToCar">
+    <image class="icon" src="/pages/images/购物车.png">
+    </image>
+    <text>购物车</text>
+  </view>
+  <view class="iconBox" bindtap="goToSelf">
+    <image class="icon" src="/pages/images/我的.png">
+    </image>
+    <text>我的</text>
+  </view>
+</view>

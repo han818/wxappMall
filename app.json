@@ -4,50 +4,48 @@
     "pages/home/home",
     "pages/introduce/introduce",
     "pages/self/self",
-    "pages/paycar/paycar"
+    "pages/paycar/paycar",
+    "custom-tab-bar/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "黄老皮的杂货铺",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "tabBar": {
-    "selectedColor": "#3cc51f",
-    "color": "#cccccc",
+
+    "selectedColor": "#545550",
+    "color": "#D0C7C8",
     "borderStyle": "black",
-    "list": [
-      {
-       
+    "list": [{
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "./pages/images/home.png",
-        "selectedIconPath": "./pages/images/home.png"
+        "iconPath": "/pages/images/home.png",
+        "selectedIconPath": "/pages/images/homefill.png"
       },
       {
-      
         "pagePath": "pages/introduce/introduce",
-        "text": "介绍",
-        "iconPath": "./pages/images/introduce.png",
-        "selectedIconPath": "./pages/images/introduce.png"
+        "text": "热卖折扣",
+        "iconPath": "./pages/images/sale.png",
+        "selectedIconPath": "./pages/images/sale-fill.png"
       },
       {
-       
         "pagePath": "pages/paycar/paycar",
-        "text": "购物",
+        "text": "购物车",
         "iconPath": "./pages/images/paycar.png",
-        "selectedIconPath": "./pages/images/paycar.png"
+        "selectedIconPath": "./pages/images/paycarfill.png"
       },
       {
-       
         "pagePath": "pages/self/self",
         "text": "我的",
         "iconPath": "./pages/images/self.png",
-        "selectedIconPath": "./pages/images/self.png"
+        "selectedIconPath": "./pages/images/selffill.png"
       }
-     
     ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+
 }

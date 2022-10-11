@@ -7,8 +7,16 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "weui-miniprogram": "^1.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/han818/wxappMall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/han818/wxappMall/issues"
+  },
+  "homepage": "https://github.com/han818/wxappMall#readme",
+  "description": ""
 }
