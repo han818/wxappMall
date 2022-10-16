@@ -122,6 +122,7 @@
   align-items: flex-start;
   margin: 5rpx;
   border-radius: 5px;
+  padding-bottom: 5rpx;
 }
 
 .shopImage {
@@ -143,4 +144,18 @@
   font-size: 20rpx;
   color: gray;
   padding-left: 5rpx;
+}
+
+.shopText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shopTask {
+  margin-left: 15rpx;
+  font-size: 18rpx;
+  border: 1rpx solid orange;
+  color: orange;
+  padding: 2rpx
 }

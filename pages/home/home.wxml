@@ -72,50 +72,62 @@
       <view class="shopItem">
         <image class="shopImage" src="/pages/images/1.png"></image>
         <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
-        <text class="shopItemPrice">￥208</text>
-        <text class="shopItemNum"> 100+人付款</text>
+        <view class="shopText">
+          <text class="shopItemPrice">￥208</text>
+          <text class="shopItemNum"> 100+人付款</text>
+        </view>
+        <text class="shopTask">新品上市</text>
+
       </view>
       <view class="shopItem">
         <image class="shopImage" src="/pages/images/1.png"></image>
         <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
-        <text class="shopItemPrice">￥208</text>
-        <text class="shopItemNum"> 100+人付款</text>
+        <view class="shopText">
+          <text class="shopItemPrice">￥208</text>
+          <text class="shopItemNum"> 100+人付款</text>
+        </view>
+        <text class="shopTask">新品上市</text>
+
       </view>
       <view class="shopItem">
         <image class="shopImage" src="/pages/images/1.png"></image>
         <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
-        <text class="shopItemPrice">￥208</text>
-        <text class="shopItemNum"> 100+人付款</text>
+        <view class="shopText">
+          <text class="shopItemPrice">￥208</text>
+          <text class="shopItemNum"> 100+人付款</text>
+        </view>
+        <text class="shopTask">新品上市</text>
+
       </view>
       <view class="shopItem">
         <image class="shopImage" src="/pages/images/1.png"></image>
         <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
-        <text class="shopItemPrice">￥208</text>
-        <text class="shopItemNum"> 100+人付款</text>
+        <view class="shopText">
+          <text class="shopItemPrice">￥208</text>
+          <text class="shopItemNum"> 100+人付款</text>
+        </view>
+        <text class="shopTask">新品上市</text>
+
       </view>
       <view class="shopItem">
         <image class="shopImage" src="/pages/images/1.png"></image>
         <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
-        <text class="shopItemPrice">￥208</text>
-        <text class="shopItemNum"> 100+人付款</text>
+        <view class="shopText">
+          <text class="shopItemPrice">￥208</text>
+          <text class="shopItemNum"> 100+人付款</text>
+        </view>
+        <text class="shopTask">新品上市</text>
+
       </view>
       <view class="shopItem">
         <image class="shopImage" src="/pages/images/1.png"></image>
         <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
-        <text class="shopItemPrice">￥208</text>
-        <text class="shopItemNum"> 100+人付款</text>
-      </view>
-      <view class="shopItem">
-        <image class="shopImage" src="/pages/images/1.png"></image>
-        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
-        <text class="shopItemPrice">￥208</text>
-        <text class="shopItemNum"> 100+人付款</text>
-      </view>
-      <view class="shopItem">
-        <image class="shopImage" src="/pages/images/1.png"></image>
-        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
-        <text class="shopItemPrice">￥208</text>
-        <text class="shopItemNum"> 100+人付款</text>
+        <view class="shopText">
+          <text class="shopItemPrice">￥208</text>
+          <text class="shopItemNum"> 100+人付款</text>
+        </view>
+        <text class="shopTask">新品上市</text>
+
       </view>
     </view>
   </view>
