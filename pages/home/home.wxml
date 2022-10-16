@@ -1,2 +1,124 @@
 <!--pages/home/home.wxml-->
-<text>123</text>
+<view class="box">
+  <view class="header">
+
+    <view class="tab">
+      <image class="searchIcon" src="../images/搜索@2x.png"></image>
+      <input class="searchText" placeholder=" 请输入..." type="text" />
+      <view class="searchBtn">搜索</view>
+    </view>
+
+  </view>
+
+  <view class="main">
+
+    <!-- 商品ad轮播图 -->
+    <view class="swiperTab">
+      <!--    <view>
+      <image src='../images/'></image>
+      </view> -->
+      <swiper autoplay="{{true}}" circular="{{true}}" indicator-dots="{{true}}" interval="2000">
+        <swiper-item mode="widthFix" style="display: flex;justify-content: center;align-items: center;">
+          <image class="swiperImg" src="/pages/images/1.png"></image>
+        </swiper-item>
+        <swiper-item mode="widthFix" style="display: flex;justify-content: center;align-items: center;">
+          <image class="swiperImg" src="/pages/images/2.png"></image>
+        </swiper-item>
+        <swiper-item mode="widthFix" style="display: flex;justify-content: center;align-items: center;">
+          <image class="swiperImg" src="/pages/images/3.png"></image>
+        </swiper-item>
+        <swiper-item mode="widthFix" style="display: flex;justify-content: center;align-items: center;">
+          <image class="swiperImg" src="/pages/images/4.png"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <!-- 商品分类区域 -->
+    <view class="cate">
+      <view class="item">
+        <image class="cateImg" src="/pages/images/手机.png"></image>
+        <text>手机数码</text>
+      </view>
+      <view class="item">
+        <image class="cateImg" src="/pages/images/图书.png"></image>
+        <text>图书课本</text>
+      </view>
+      <view class="item">
+        <image class="cateImg" src="/pages/images/T恤.png"></image>
+        <text>潮流衣服</text>
+      </view>
+      <view class="item">
+        <image class="cateImg" src="/pages/images/生鲜水果.png"></image>
+        <text>生鲜水果</text>
+      </view>
+      <view class="item">
+        <image class="cateImg" src="/pages/images/进口商品.png"></image>
+        <text>进口商品</text>
+      </view>
+      <view class="item">
+        <image class="cateImg" src="/pages/images/粮油副食.png"></image>
+        <text>粮油副食</text>
+      </view>
+      <view class="item">
+        <image class="cateImg" src="/pages/images/美容洗护.png"></image>
+        <text>美容洗护</text>
+      </view>
+      <view class="item">
+        <image class="cateImg" src="/pages/images/女包.png"></image>
+        <text>女性装饰</text>
+      </view>
+    </view>
+    <!-- 商品随机区 -->
+    <view class="shop">
+      <view class="shopItem">
+        <image class="shopImage" src="/pages/images/1.png"></image>
+        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
+        <text class="shopItemPrice">￥208</text>
+        <text class="shopItemNum"> 100+人付款</text>
+      </view>
+      <view class="shopItem">
+        <image class="shopImage" src="/pages/images/1.png"></image>
+        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
+        <text class="shopItemPrice">￥208</text>
+        <text class="shopItemNum"> 100+人付款</text>
+      </view>
+      <view class="shopItem">
+        <image class="shopImage" src="/pages/images/1.png"></image>
+        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
+        <text class="shopItemPrice">￥208</text>
+        <text class="shopItemNum"> 100+人付款</text>
+      </view>
+      <view class="shopItem">
+        <image class="shopImage" src="/pages/images/1.png"></image>
+        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
+        <text class="shopItemPrice">￥208</text>
+        <text class="shopItemNum"> 100+人付款</text>
+      </view>
+      <view class="shopItem">
+        <image class="shopImage" src="/pages/images/1.png"></image>
+        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
+        <text class="shopItemPrice">￥208</text>
+        <text class="shopItemNum"> 100+人付款</text>
+      </view>
+      <view class="shopItem">
+        <image class="shopImage" src="/pages/images/1.png"></image>
+        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
+        <text class="shopItemPrice">￥208</text>
+        <text class="shopItemNum"> 100+人付款</text>
+      </view>
+      <view class="shopItem">
+        <image class="shopImage" src="/pages/images/1.png"></image>
+        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
+        <text class="shopItemPrice">￥208</text>
+        <text class="shopItemNum"> 100+人付款</text>
+      </view>
+      <view class="shopItem">
+        <image class="shopImage" src="/pages/images/1.png"></image>
+        <text class="shopItemTitle">Hold Color美式潮牌夹克</text>
+        <text class="shopItemPrice">￥208</text>
+        <text class="shopItemNum"> 100+人付款</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="footer"></view>
+</view>
